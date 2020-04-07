@@ -1,0 +1,17 @@
+.input-group{
+    width:100%;
+}
+.input-group label{
+    width:25%;
+    font-weight:normal;
+    margin:10px 0
+}
+
+#dinak_board_type div select{
+    margin:5px 0
+}
+@media (max-width: 768px){
+    .input-group label{
+        width:50%
+    }
+}

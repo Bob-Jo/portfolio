@@ -1,0 +1,876 @@
+.homepage_list .form-horizontal .form-group{margin:0}
+.bt_none{border-top:none !important;}
+.mt_none{margin-top:0 !important;}
+.tbr{display:none}
+.mbr{display:none}
+
+.title_sty1{position:relative;}
+.title_sty1 p{font-size:20px;color:#333333;letter-spacing:-1px;font-weight:500}
+.title_sty1 span{font-size:16px;color:#808080;float:right;letter-spacing:-0.8px;font-weight:normal;margin-top:4px;}
+.title_sty1 a.help_btn{width:28px;height:28px;background:url('https://img.moolban.com/unsafe/asset/partner/img/ps/ico_help.png') no-repeat;background-size:100% auto;display:block;position:absolute;top:0;right:0}
+
+.title_sty2{margin:30px 0 15px}
+.title_sty2 p{font-size:20px;color:#333333;letter-spacing:-1px;font-weight:500}
+.title_sty2 span{display:inline-block;font-size:13px;color:#808080;letter-spacing:-.4px;margin-left:10px;font-weight:normal}
+
+.title_sty3{margin:30px 0 15px}
+.title_sty3:after{display:block;content:'';clear:both}
+.title_sty3 p{font-size:20px;color:#333333;letter-spacing:-1px;font-weight:500;float:left}
+.title_sty3 p em{display:inline-block;font-size:20px;color:#ff724c;font-weight:500;letter-spacing:-1px;font-style:normal}
+.title_sty3 p em:before{width:2px;height:18px;background:#eee;display:inline-block;content:'';margin:0 10px;position:relative;top:1px;}
+.title_sty3 a{border:1px solid #ff724c;border-radius:.3rem;float:right;height:32px;line-height:32px;padding:0 10px;font-size:15px;color:#ff724c;letter-spacing:-.6px;}
+.title_sty3 span{float:left;width:100%;display:block;font-size:14px;color:#808080;letter-spacing:-.6px;margin-top:5px;}
+.title_sty3 p + i{float:right;font-size:16px;color:#808080;letter-spacing:-.8px;font-style:normal;}
+.title_sty3 p + i em{font-size:16px;color:#808080;font-style:normal;}
+
+dl.title_sty3{margin:30px 0 15px}
+.title_sty3 dt{font-size:20px;color:#333333;letter-spacing:-1px;font-weight:500;}
+.title_sty3 dt button{width:91px;height:25px;line-height:23px;text-align:center;border:1px solid #d5d5d5;border-radius:.3rem;font-size:13px;color:#777777;letter-spacing:-.6px;padding:0;margin-top:3px;float:right;}
+.title_sty3 dd{font-size:13px;color:#9a9a9a;letter-spacing:-.6px;margin-top:5px;margin-left:43px;}
+.title_sty3 dd i{margin-right:5px;background:#fafafa;border-radius:3rem;width:38px;height:18px;line-height:16px;text-align:center;display:inline-block;font-style:normal;border:1px solid #aaa;font-size:12px;color:#777;letter-spacing:-0.5px;font-weight:500;margin-left:-43px;}
+
+.title_sty4{padding:15px 13px;}
+.title_sty4 p{font-size:20px;color:#333;font-weight:500;margin:0}
+
+input.pch1::-webkit-input-placeholder{color:#aaaaaa;}
+input.pch1::-moz-placeholder{color:#aaaaaa;}
+input.pch1:-ms-input-placeholder{color:#aaaaaa;}
+input.pch1:-moz-placeholder{color:#aaaaaa;}
+
+label.label_sty1{position:relative;cursor:pointer}
+label.label_sty1:after{display:block;content:'';clear:both}
+label.label_sty1 input[type="radio"]{position:absolute;z-index:-9999;opacity:0;width:0;height:0}
+label.label_sty1 input[type="radio"] + ins{width:20px;height:20px;border:1px solid #c0c0c0;background:#fff;border-radius:100%;float:left;margin-right:5px;position:relative;top:2px;}
+label.label_sty1 input[type="radio"] + ins + span{font-size:16px;color:#333333;letter-spacing:-.5px;float:left;}
+label.label_sty1 input[type="radio"]:checked + ins{border:1px solid #ff724c}
+label.label_sty1 input[type="radio"]:checked + ins:after{width:12px;height:12px;background:#ff724c;position:absolute;top:3px;left:3px;display:block;content:'';border-radius:100%;}
+
+label.label_sty2{position:relative;cursor:pointer}
+label.label_sty2:after{display:block;content:'';clear:both}
+label.label_sty2 input[type="checkbox"]{position:absolute;z-index:-9999;opacity:0;width:0;height:0}
+label.label_sty2 input[type="checkbox"] + ins{width:24px;height:24px;border:1px solid #d5d5d5;background:#fff;float:left;margin-right:8px;position:relative;}
+label.label_sty2 input[type="checkbox"] + ins + span{font-size:14px;color:#454545;letter-spacing:-.6px;float:left;}
+label.label_sty2 input[type="checkbox"]:checked + ins{background:#fff url('https://img.moolban.com/unsafe/asset/partner/img/hosting/icon_checkbox--on.png') top 8px center no-repeat;background-size:12px auto;}
+
+label.label_sty3{position:relative;cursor:pointer;margin:0;margin-right:53px;font-weight:normal}
+label.label_sty3:after{display:block;content:'';clear:both}
+label.label_sty3 input[type="radio"]{position:absolute;z-index:-9999;opacity:0;width:0;height:0}
+label.label_sty3 input[type="radio"] + ins{width:20px;height:20px;border:1px solid #c0c0c0;background:#fff;border-radius:100%;float:left;margin-right:5px;position:relative;top:2px;}
+label.label_sty3 input[type="radio"] + ins + span{font-size:16px;color:#333333;letter-spacing:-.5px;float:left;}
+label.label_sty3 input[type="radio"]:checked + ins{border:1px solid #ff724c}
+label.label_sty3 input[type="radio"]:checked + ins:after{width:12px;height:12px;background:#ff724c;position:absolute;top:3px;left:3px;display:block;content:'';border-radius:100%;}
+
+
+.wrap_button{text-align:center;margin:45px 0;font-size:0}
+.wrap_button button{width:160px;height:49px;line-height:47px;text-align:center;font-size:17px;color:#fff;border-radius:.3rem;border:none;}
+.wrap_button button.mulban_button{background:#ff724c;}
+.wrap_button button.blue_button{background:#2876a1;}
+.wrap_button2 button:first-child{margin-right:8px;}
+
+
+/* 기본설정 - 홈페이지 관리 */
+.homepage_list .inner_area{margin-top:30px;}
+.homepage_list .half_area{float:left;width:calc(50% - 10px);}
+.homepage_list .half_area:first-child{margin-right:20px}
+.homepage_list .inner_box{margin-top:20px;}
+.homepage_list .inner_area1 .btn_box{float:left}
+.homepage_list .inner_area1 .btn_box a{width:83px;height:36px;line-height:36px;text-align:center;float:left;display:block;border-radius:.3rem;background:#fafafa;border:1px solid #e6e6e6;font-size:14px;color:#808080;letter-spacing:-.4px;margin-right:10px;}
+.homepage_list .inner_area1 .btn_box a.active{border:1px solid #ff724c;background:#ff724c;color:#fff;}
+.homepage_list .inner_area1 .btn_box + .input_box{width:calc(100% - 202px)}
+.homepage_list .inner_area1 .input_box{float:left;border-bottom:1px solid #e6e6e6;height:36px;line-height:36px;width:100%}
+.homepage_list .inner_area1 .input_box p{float:left;font-size:16px;color:#454545;letter-spacing:-.5px;}
+.homepage_list .inner_area1 .input_box input{font-size:16px;float:left;border:none;height:auto;padding:0 10px;background:none;width:calc(100% - 130px)}
+.homepage_list .inner_area2 input{width:100%;height:54px;padding:0 15px;font-size:16px}
+.homepage_list .inner_area3 .type_box{float:left;width:180px;margin-left:20px;}
+.homepage_list .inner_area3 .type_box:first-child{margin-left:0}
+.homepage_list .inner_area3 .type_box .img_box{width:180px;height:180px;background:#fafafa;border:1px solid #e6e6e6;display:block;position:relative;margin-bottom:10px;overflow:hidden}
+.homepage_list .inner_area3 .type_box .img_box:after{width:30px;height:30px;background:rgba(0, 0, 0, 0.6) url('https://img.moolban.com/unsafe/asset/partner/img/hosting/ico_wh_plus01.png') top 7px center no-repeat;background-size:17px auto;position:absolute;bottom:0;right:0;content:'';}
+.homepage_list .inner_area3 .type_box .img_box img{width:100%;height:100%;}
+.homepage_list .inner_area3 .type_box label{position:relative;display:block;}
+.homepage_list .inner_area3 .type_box label:after{display:block;content:'';clear:both}
+.homepage_list .inner_area3 .type_box label input{position:absolute;z-index:-99999;width:0;height:0;opacity:0}
+.homepage_list .inner_area3 .type_box label ins{width:20px;height:20px;border:1px solid #c0c0c0;border-radius:100%;float:left;background:#fff;margin-top:2px;position:relative;}
+.homepage_list .inner_area3 .type_box label span{width:calc(100% - 20px);padding-left:5px;font-size:16px;color:#333;letter-spacing:-.5px;float:left;}
+.homepage_list .inner_area3 .type_box label input:checked + ins{border:1px solid #ff724c;}
+.homepage_list .inner_area3 .type_box label input:checked + ins:after{display:block;content:'';position:absolute;width:12px;height:12px;top:3px;left:3px;background:#ff724c;border-radius:100%}
+.homepage_list .inner_area4 label{position:relative;float:left;width:70px;margin-left:15px;}
+.homepage_list .inner_area4 label:first-child{margin-left:0}
+.homepage_list .inner_area4 label input{position:absolute;z-index:-9999;width:0;height:0;opacity:0}
+.homepage_list .inner_area4 label ins{width:100%;height:60px;display:block;}
+.homepage_list .inner_area4 label span{background:#fafafa;border:1px solid #e6e6e6;display:block;width:100%;height:32px;line-height:32px;text-align:center;font-size:14px;color:#606060;letter-spacing:-.4px}
+.homepage_list .inner_area4 label.blue input + ins{background:#0c98dd;}
+.homepage_list .inner_area4 label.blue input:checked + ins{background:#0c98dd url('https://img.moolban.com/unsafe/asset/partner/img/hosting/check_on_wh.png') top 24px center no-repeat;background-size:21px auto}
+.homepage_list .inner_area4 label.red input + ins{background:#a70240;}
+.homepage_list .inner_area4 label.red input:checked + ins{background:#a70240 url('https://img.moolban.com/unsafe/asset/partner/img/hosting/check_on_wh.png') top 24px center no-repeat;background-size:21px auto}
+.homepage_list .inner_area4 label.green input + ins{background:#34b233;}
+.homepage_list .inner_area4 label.green input:checked + ins{background:#34b233 url('https://img.moolban.com/unsafe/asset/partner/img/hosting/check_on_wh.png') top 24px center no-repeat;background-size:21px auto}
+.homepage_list .inner_area4 label.deep input + ins{background:#0039a6;}
+.homepage_list .inner_area4 label.deep input:checked + ins{background:#0039a6 url('https://img.moolban.com/unsafe/asset/partner/img/hosting/check_on_wh.png') top 24px center no-repeat;background-size:21px auto}
+.homepage_list .inner_area4 label.purple input + ins{background:#6639b7;}
+.homepage_list .inner_area4 label.purple input:checked + ins{background:#6639b7 url('https://img.moolban.com/unsafe/asset/partner/img/hosting/check_on_wh.png') top 24px center no-repeat;background-size:21px auto}
+.homepage_list .inner_area5 .img_box{width:145px;height:145px;line-height:145px;float:left;border:1px solid #e6e6e6;background:#eee;overflow:hidden;}
+.homepage_list .inner_area5 .img_box img{width:100%;}
+.homepage_list .inner_area5 .upload_box{float:left;padding-left:15px;}
+.homepage_list .inner_area5 .upload_box p{font-size:13px;color:#9a9a9a;padding-top:86px;margin-bottom:10px;}
+.homepage_list .inner_area5 .upload_box label{width:70px;height:30px;line-height:30px;background:#ff724c;border-radius:.3rem;text-align:center;border:none;font-size:14px;color:#fff;letter-spacing:-.4px;}
+.homepage_list .inner_area5 .upload_box input{position:absolute;width:0;height:0;padding:0;overflow:hidden;clip:rect(0,0,0,0);border:0;}
+.homepage_list .inner_area5 .del_box{margin-top:10px}
+.homepage_list .inner_area5 .del_box a{display:inline-block;width:70px;height:30px;line-height:30px;background:#fafafa;border-radius:.3rem;text-align:center;border:1px solid #f0f0f0;font-size:14px;color:#aaaaaa;letter-spacing:-.4px;}
+
+/* 기본설정 - 출조안내 관리 */
+.homepage_list .chuljo_write_area .write_full{font-size:0}
+.homepage_list .chuljo_write_area textarea{font-size:16px;padding:15px;height:130px}
+
+/* 기본설정 - 메인배너 등록 */
+.homepage_list .banner_write_area .full_input{height:54px;padding:0 15px;width:100%;font-size:16px}
+.homepage_list .banner_write_area .banner_img_box{border:1px solid #e6e6e6;background:#eee;text-align:center;border-radius:.5rem;padding-top:248.125px;overflow:hidden;margin-bottom:10px;position:relative;}
+.homepage_list .banner_write_area .banner_img_box img{width:100%;position:absolute;top:50%;left:50%;right:0;bottom:0;height:auto;transform:translate(-50%, -50%);}
+.homepage_list .banner_write_area .banner_remove_box{float:left}
+.homepage_list .banner_write_area .banner_remove_box a{display:block;background:#fafafa;border:1px solid #f0f0f0;text-align:center;width:70px;height:30px;line-height:30px;text-align:center;border-radius:.3rem;font-size:14px;color:#aaaaaa;letter-spacing:-.4px}
+.homepage_list .banner_write_area .banner_file_box{width:70px;height:30px;background:#ff724c;position:relative;border-radius:.3rem;overflow:hidden;float:right;}
+.homepage_list .banner_write_area .banner_file_box label{width:100%;height:30px;line-height:28px;cursor:pointer;background:#ff724c;border:1px solid #ff724c;text-align:center;font-size:14px;color:#fff;letter-spacing:-.4px;margin-left:0}
+.homepage_list .banner_write_area .banner_file_box input{position:absolute;width:0;height:0;z-index:-99999;opacity:0}
+.homepage_list .banner_write_area label{margin-left:25px;}
+.homepage_list .banner_write_area label:first-child{margin-left:0}
+.homepage_list .banner_write_area .banner_inner{margin-top:20px}
+.homepage_list .banner_write_area .banner_inner p{width:217px;height:45px;line-height:45px;border:1px solid #e6e6e6;border-radius:.3rem;position:relative;float:left;background:#fff url('https://img.moolban.com/unsafe/asset/partner/img/ps/icon_03.png') top 12px right 11px no-repeat;background-size:22px auto;}
+.homepage_list .banner_write_area .banner_inner p strong{font-size:15px;color:#808080;letter-spacing:-.8px;font-weight:normal;padding-left:11px;}
+.homepage_list .banner_write_area .banner_inner p input{z-index:1;width:100%;height:100%;position:absolute;top:0;left:0;padding:0 40px 0 66px;font-size:15px;color:#333333;letter-spacing:-.5px;border:none;background:none;}
+.homepage_list .banner_write_area .banner_inner i{display:block;float:left;width:40px;height:45px;line-height:45px;text-align:center;}
+.homepage_list .banner_write_area .banner_inner i:after{display:inline-block;width:20px;height:2px;background:#dadada;content:'';position:relative;vertical-align:middle;}
+.homepage_list .banner_mo_area .write_full{width:360px;}
+.homepage_list .banner_mo_area .banner_img_box{padding-top:203px}
+.homepage_list .banner_mo_area .banner_img_box img{height:100%;width:auto;}
+
+
+/* 기본설정 - 출조공지관리 */
+.homepage_list .chuljo_notice_table li{display:table;width:100%;border-bottom:1px solid #e6e6e6}
+.homepage_list .chuljo_notice_table li p{font-size:14px;color:#606060;letter-spacing:-.6px;text-align:center;padding:13px 10px 12px;display:table-cell;vertical-align:middle;border-left:1px solid #e6e6e6;word-break:break-all;}
+.homepage_list .chuljo_notice_table li p:first-child{border-left:none}
+.homepage_list .chuljo_notice_table li.first_line p{background:#b5b5b5;padding:10px;font-size:13px;color:#fff;}
+.homepage_list .chuljo_notice_table li p.line1{width:94px}
+.homepage_list .chuljo_notice_table li p.line2{width:calc(100% - 328px)}
+.homepage_list .chuljo_notice_table li p.line3{width:100px}
+.homepage_list .chuljo_notice_table li p.line4{width:67px}
+.homepage_list .chuljo_notice_table li p.line4 .bg-cancel{display:none}
+.homepage_list .chuljo_notice_table li p.line5{width:67px}
+
+/* 기본설정 - 예약및문의안내 */
+.homepage_list .form-group_deposit .form-group_item{padding:0}
+.homepage_list .form-group_deposit .form-group_item.bank_account_list_area{border-top:1px dotted #e6e6e6;padding-top:15px;margin-top:15px;}
+.homepage_list .form-group_deposit #list_0 .form-group_item.bank_account_list_area{border-top:none;padding-top:0;margin-top:0}
+.homepage_list .form-group_deposit #list_0 .form-group_item.bank_account_list_area .input_line input{width:527px}
+.homepage_list .form-group_deposit #list_0 .form-group_item.bank_account_list_area .input_line input:first-child{width:236px;margin-right:10px;}
+.homepage_list .form-group_deposit .form-group_item.bank_account_list_area .select_line{margin-bottom:12px}
+.homepage_list .form-group_deposit .form-group_item.bank_account_list_area .select_line select{width:236px;float:left;margin-left:10px}
+.homepage_list .form-group_deposit .form-group_item.bank_account_list_area .select_line select:first-child{margin-left:0}
+.homepage_list .form-group_deposit .form-group_item.bank_account_list_area .input_line input{width:465px;float:left;}
+.homepage_list .form-group_deposit .form-group_item.bank_account_list_area .input_line input:first-child{width:236px;margin-right:10px;}
+.homepage_list .form-group_deposit .form-group_item.bank_account_list_area .form-group_btn_cancel{float:left;margin-left:10px;}
+.homepage_list .form-group_deposit .form-group_item.bank_account_list_area .form-group_btn_cancel a{display:block;background:#fafafa;border:1px solid #e6e6e6;border-radius:.3rem;line-height:54px;width:53px;height:54px;text-align:center;font-size:16px;color:#808080;letter-spacing:-.5px;}
+
+.management-root .sms_wrg_box{padding:25px 0}
+.management-root .sms_wrg_box .sms_wrg{font-size:13px;color:#9a9a9a;letter-spacing:-.6px;margin-left:43px}
+.management-root .sms_wrg_box .sms_wrg i{background:#aaa;width:38px;height:18px;line-height:18px;text-align:center;border-radius:3rem;display:inline-block;margin-right:5px;font-size:12px;color:#fff;letter-spacing:-.5px;font-weight:500;font-style:normal;margin-left:-43px}
+.management-root .sms_wrg_box .sms_wrg.active{color:#e84418}
+.management-root .sms_wrg_box .sms_wrg.active i{background:#e84418;}
+
+.root-bottom .right_txt{float:right;color:#777;float:right;height:30px;line-height:30px;}
+.root-bottom .right_txt em{color:#ff724c;font-style:normal;}
+
+.filter_box .filter_line_reply .filter_select-box{width:88px;float:left;}
+.filter_box .filter_line_reply .filter_search-input{width:calc(100% - 98px);float:right;}
+.filter_box .filter_line_reply .filter_search-input input{width:100%;height:45px;padding:0 11px;font-size:15px;border:1px solid #eee}
+
+/* sms관리 - 발송 */
+.sms_list button{outline:none;cursor:pointer;padding:0}
+.sms_list button:focus,
+.sms_list button:active{box-shadow:none}
+.sms_list .sms_write_area{position:relative;}
+.sms_list .sms_inner select{width:100%;height:54px;font-size:16px;padding:0 15px;color:#333;background:#fff url("https://img.moolban.com/unsafe/asset/partner/img/hosting/icon_select-arrow-gy.png") top 24px right 15px no-repeat;background-size:11px auto}
+.sms_list .sms_inner label.label_sty1{margin-left:25px}
+.sms_list .sms_inner label.label_sty1:first-child{margin-left:0}
+.sms_list .sms_add_box{width:382px;}
+.sms_list .sms_add_box .form-rcv-area{float:left;width:calc(100% - 64px)}
+.sms_list .sms_add_box .form-rcv-area input{border:1px solid #d5d5d5;height:54px;padding:0 15px;width:100%;}
+.sms_list .sms_add_box button{float:right;width:54px;height:54px;border:1px dotted #9a9a9a;border-radius:.3rem;background:#fff url("https://img.moolban.com/unsafe/asset/partner/img/hosting/icon_plus-gy.png") top 19px center no-repeat;background-size:16px auto;font-size:0}
+.sms_list .sms_add_box dl{min-height:266px;border-radius:.3rem;overflow:hidden;border:1px solid #e6e6e6;margin-top:15px}
+.sms_list .sms_add_box dt{background:#fafafa;height:43px;line-height:43px;padding:0 14px;font-size:14px;color:#777777;border-bottom:1px solid #e6e6e6}
+.sms_list .sms_add_box dt span{color:#ff724c;font-size:1em;font-weight:normal}
+.sms_list .sms_add_box dd{height:221px;overflow-y:auto}
+.sms_list .sms_add_box dd p{border-bottom:1px solid #e6e6e6;padding:12px 15px;position:relative;top:1px;}
+.sms_list .sms_add_box dd button{width:46px;height:44px;position:absolute;top:0;right:0;border:none;background:url("https://img.moolban.com/unsafe/asset/partner/img/hosting/icon_close-gy.png") top 14px center no-repeat;background-size:17px auto;outline:none}
+.sms_list .sms_add_box dd button:hover{outline:none}
+.sms_list .sms_txt_box{width:382px;position:relative;}
+.sms_list .sms_txt_box textarea{width:100%;padding:15px;border:1px solid #d5d5d5;border-radius:.3rem;font-size:16px;letter-spacing:-.5px;height:150px;}
+.sms_list .sms_txt_box .sms-input{color:#808080}
+.sms_list .sms_txt_box .text_byte_check_len{color:#333;}
+.sms_list .template_box .temp_select{border:1px solid #d5d5d5;border-radius:.3rem;margin-top:15px;width:382px;position:relative}
+.sms_list .template_box .temp_select span{font-size:15px;color:#777777;letter-spacing:-.5px;width:64px;height:38px;line-height:36px;float:left;text-align:center;border-right:1px solid #d5d5d5;background:#fafafa;}
+.sms_list .template_box .temp_select select{width:calc(100% - 64px);float:left;height:38px;font-size:15px;padding:0 25px 0 10px;border:none;background:#fff url("https://img.moolban.com/unsafe/asset/partner/img/hosting/icon_select-arrow-gy.png") top 16px right 10px no-repeat;background-size:11px auto;}
+.sms_list .template_box .template_box_list{margin-top:20px}
+.sms_list .template_box .template_box_list li{width:calc(50% - 15px);float:left;border:1px solid #d5d5d5;border-radius:.3rem;overflow:hidden;}
+.sms_list .template_box .template_box_list li:nth-child(2n){margin-left:10px;}
+.sms_list .template_box .template_box_list li dt{background:#fafafa;padding:10px;font-size:15px;color:#333;font-weight:500;border-bottom:1px solid #dbdbdb}
+.sms_list .template_box .template_box_list li dt span{background:#fff;border:1px solid #9a9a9a;height:23px;line-height:23px;font-size:13px;color:#777777;padding:0 3px;margin-right:8px;display:inline-block}
+.sms_list .template_box .template_box_list li dd{padding:12px;font-size:14px;color:#454545;}
+.sms_list .template_box .template_box_list li dd p{font-size:14px;color:#454545;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;height:80px;line-height:20px;word-break:break-all;}
+.sms_list .template_box .template_box_list li dd a{width:67px;height:25px;line-height:23px;text-align:center;margin-top:12px;border:1px solid #ff724c;border-radius:.3rem;font-size:13px;color:#ff724c;letter-spacing:-.4px;display:block;}
+.sms_list .member_box .btn_num{margin:20px 0 15px;}
+.sms_list .member_box .btn_num button{float:left;width:135px;height:40px;line-height:38px;border-radius:.3rem;border:1px solid #ff724c;background:#fff;font-size:16px;color:#ff724c;letter-spacing:-.7px;}
+.sms_list .member_box .btn_num p{float:left;font-size:14px;color:#777;letter-spacing:-.6px;margin-left:10px;height:40px;line-height:40px;}
+.sms_list .member_box .btn_num p span{color:#ff724c;}
+.sms_list .member_box .btn_num p i{font-style:normal;font-weight:500}
+.sms_list .member_box .btn_num strong{font-size:14px;color:#e84418;letter-spacing:-.6px;font-weight:normal;float:left;height:40px;line-height:40px;}
+.sms_list .member_box .btn_num strong:before{width:1px;height:14px;background:#dddddd;display:inline-block;content:'';position:relative;top:2px;margin:0 8px}
+.sms_list .member_box .btn_num strong span{font-weight:500;}
+.sms_list .member_box .num_text{margin:15px 0;}
+.sms_list .member_box .num_text p{float:left;font-size:14px;color:#777;letter-spacing:-.6px}
+.sms_list .member_box .num_text p span{color:#ff724c;}
+.sms_list .member_box .num_text p i{font-style:normal;font-weight:500}
+.sms_list .member_box .num_text strong{font-size:14px;color:#e84418;letter-spacing:-.6px;font-weight:normal;float:left;}
+.sms_list .member_box .num_text strong:before{width:1px;height:14px;background:#dddddd;display:inline-block;content:'';position:relative;top:2px;margin:0 8px}
+.sms_list .member_box .num_text strong span{font-weight:500;}
+.sms_list .sms_wrg{font-size:13px;color:#9a9a9a;letter-spacing:-.6px;margin-top:11px;margin-left:43px}
+.sms_list .sms_wrg i{background:#aaa;width:38px;height:18px;line-height:18px;text-align:center;border-radius:3rem;display:inline-block;margin-right:5px;font-size:12px;color:#fff;letter-spacing:-.5px;font-weight:500;font-style:normal;margin-left:-43px}
+.sms_list .sms_wrg.active{color:#e84418}
+.sms_list .sms_wrg.active i{background:#e84418;}
+.sms_list .excel_box .upload_file_area{margin-bottom:15px}
+.sms_list .excel_box .fileUpload_input{width:250px;height:30px;background:#fafafa;border:1px solid #e6e6e6;float:left;margin-right:10px;padding:0 10px;font-size:14px;}
+.sms_list .excel_box .fileUpload_div{position:relative;float:left;margin:0;padding:0;}
+.sms_list .excel_box .fileUpload_button{width:85px;height:30px;line-height:30px;border-radius:.3rem;background:#ff724c;text-align:center;font-size:14px;color:#fff;letter-spacing:-.4px;border:none;outline:none}
+.sms_list .excel_box .fileUpload_hidden{position:absolute;width:100%;height:30px;right:0px;top:0px;opacity:0;filter: alpha(opacity=0);-ms-filter: "alpha(opacity=0)";-khtml-opacity: 0;-moz-opacity: 0;}
+.sms_list .excel_box .fileUpload_remove{position:relative;float:left;margin-left:10px;}
+.sms_list .excel_box .fileUpload_remove a{width:70px;height:30px;line-height:30px;border-radius:.3rem;background:#fafafa;border:1px solid #f0f0f0;text-align:center;font-size:14px;color:#aaa;letter-spacing:-.4px;display:block;}
+.sms_list .excel_box .fileinput-exists .fileinput-new,
+.sms_list .excel_box .fileinput-new .fileinput-exists{display:block}
+.sms_list .excel_box .excel_file{float:right;position:relative;}
+.sms_list .excel_box .excel_file label{width:155px;height:30px;line-height:30px;border:1px solid #e6e6e6;border-radius:.3rem;display:block;font-size:14px;color:#777;letter-spacing:-.4px;padding-left:34px;background:#fff url("https://img.moolban.com/unsafe/asset/partner/img/hosting/icon_excel.png") top 6px left 10px no-repeat;background-size:19px auto;}
+.sms_list .excel_box .excel_file input{position:absolute;z-index:-9999;opacity:0;width:0;height:0;}
+
+/* sms관리 - 발송내역 */
+.sms_pick{margin:30px 10px 20px}
+.sms_pick p{font-size:14px;color:#777;float:left}
+.sms_pick p span{color:#ff724c}
+.sms_pick .click_check{float:right;font-size:0}
+.sms_list .sms_list_ol li{width:calc(50% - 5px);float:left;border:1px solid #d5d5d5;border-radius:.3rem;overflow:hidden;height:250px;margin-top:11px;background:#fff;}
+.sms_list .sms_list_ol li:nth-child(2n){margin-left:10px;}
+.sms_list .sms_list_ol dt{background:#fafafa;padding:9px 11px 8px;font-weight:normal;}
+.sms_list .sms_list_ol dt i{background:#fff;border:1px solid #9a9a9a;height:23px;line-height:23px;width:33px;text-align:center;display:block;float:left;font-size:13px;color:#777;font-style:normal}
+.sms_list .sms_list_ol dt span{float:right;text-align:right;font-size:13px;color:#606060;}
+.sms_list .sms_list_ol dt span strong{font-size:13px;color:#333;font-weight:500;display:inline-block;}
+.sms_list .sms_list_ol dt span strong:before{width:1px;height:12px;background:#d5d5d5;display:inline-block;content:'';position:relative;top:1px;margin:0 5px}
+.sms_list .sms_list_ol dt span em{font-size:13px;font-style:normal}
+.sms_list .sms_list_ol dt span em.blue_txt{color:#2876a1}
+.sms_list .sms_list_ol dt span em.red_txt{color:#e84418}
+.sms_list .sms_list_ol dd{border-top:1px solid #dbdbdb;padding:12px;}
+.sms_list .sms_list_ol .con{height:160px;position:relative;}
+.sms_list .sms_list_ol .con p{font-size:14px;color:#454545;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;height:60px;line-height:20px;word-break:break-all;}
+.sms_list .sms_list_ol .con strong{font-size:14px;color:#606060;font-weight:normal;display:block;margin-bottom:5px;}
+.sms_list .sms_list_ol .con strong em{font-size:1em;font-style:normal}
+.sms_list .sms_list_ol .con strong em:before{width:1px;height:12px;background:#d5d5d5;margin:0 5px;display:inline-block;content:'';position:relative;top:1px;}
+.sms_list .sms_list_ol .con span{position:absolute;bottom:0;left:0;display:block;width:100%;padding:12px;font-size:13px;color:#aaaaaa;}
+.sms_list .sms_list_ol .stg{font-size:15px;color:#454545;font-weight:500;letter-spacing:-.5px;}
+.sms_list .sms_list_ol .stg a{float:right;font-size:15px;color:#ff724c;font-weight:500;letter-spacing:-.5px;background:url("https://img.moolban.com/unsafe/asset/partner/img/ps/icon_04.png") top 4px right no-repeat;background-size:6px 14px;padding-right:13px;}
+
+/* sms관리 - 발송내역상세 */
+.sms_list .filter_area .mulban_btn{background:#ff724c;padding:0 19px;height:38px;line-height:36px;border:none;font-size:16px;color:#fff;letter-spacing:-.6px;border-radius:.3rem;position:absolute;top:25px;right:10px}
+.sms_list .sms_view_ol li:after{display:block;content:'';clear:both}
+.sms_list .sms_view_ol li{border-top:1px solid #e6e6e6;width:100%;display:table;background:#fff;}
+.sms_list .sms_view_ol li.on{background:#fffbfa;}
+.sms_list .sms_view_ol li.first_line{background:#b5b5b5}
+.sms_list .sms_view_ol li.first_line p{color:#fff !important;font-size:13px;padding:7px 5px;}
+.sms_list .sms_view_ol li.last_line{background:#f7f7f7;display:block;padding:10px;border-bottom:1px solid #e6e6e6}
+.sms_list .sms_view_ol li.last_line a{width:152px;height:30px;line-height:30px;background:#fff;border:1px solid #c0c0c0;text-align:center;font-size:14px;color:#9a9a9a;letter-spacing:-.5px;display:block}
+.sms_list .sms_view_ol li p{border-left:1px solid #e6e6e6;display:table-cell;text-align:center;vertical-align:middle;padding:10px 5px;font-size:14px;color:#606060;letter-spacing:-.6px;}
+.sms_list .sms_view_ol li p:first-child{border-left:none}
+.sms_list .sms_view_ol li p.line1{width:45px;font-size:0}
+.sms_list .sms_view_ol li p.line2{width:44px}
+.sms_list .sms_view_ol li p.line3{width:149px}
+.sms_list .sms_view_ol li p.line4{width:108px;color:#2876a1;}
+.sms_list .sms_view_ol li p.line4.fail{color:#e84418;}
+.sms_list .sms_view_ol li p.line4.wait{color:#aaa;}
+.sms_list .sms_view_ol li p.line5{width:227px;}
+.sms_list .sms_view_ol li p.line6{width:141px}
+.sms_list .sms_view_ol li p.line7{width:80px}
+.sms_list .sms_view_ol li button{background:#fff;border:1px solid #d5d5d5;width:55px;height:25px;text-align:center;line-height:23px;border-radius:.3rem;font-size:13px;color:#777;letter-spacing:-.6px;}
+.sms_list .sms_view_ol label{position:relative;display:inline-block;}
+.sms_list .sms_view_ol label input{position:absolute;z-index:-9999;opacity:0;width:0;height:0;}
+.sms_list .sms_view_ol label ins{width:24px;height:24px;background:#fff;border:1px solid #ebebeb;display:block;}
+.sms_list .sms_view_ol label input:checked + ins{background:#fff url("https://img.moolban.com/unsafe/asset/partner/img/ps/ico_check.png") top 6px center no-repeat;background-size:12px auto}
+
+/* sms관리 - 포인트충전 */
+.sms_list .sms_plist_ol{padding:30px 10px 0}
+.sms_list .sms_plist_ol li:after{display:block;content:'';clear:both}
+.sms_list .sms_plist_ol li{border-bottom:1px solid #e6e6e6;width:100%;display:table;background:#fff;}
+.sms_list .sms_plist_ol li.on{background:#fffbfa;}
+.sms_list .sms_plist_ol li.first_line{background:#b5b5b5}
+.sms_list .sms_plist_ol li.first_line p{color:#fff !important;font-size:13px !important;padding:10px 5px;}
+.sms_list .sms_plist_ol li p{border-left:1px solid #e6e6e6;display:table-cell;text-align:center;vertical-align:middle;padding:12px 5px;font-size:14px;color:#606060;letter-spacing:-.6px;}
+.sms_list .sms_plist_ol li p:first-child{border-left:none}
+.sms_list .sms_plist_ol li p.line1{width:77px;font-size:0}
+.sms_list .sms_plist_ol li p.line2{width:227px}
+.sms_list .sms_plist_ol li p.line3{width:109px}
+.sms_list .sms_plist_ol li p.line4{width:109px;}
+.sms_list .sms_plist_ol li p.line5{width:136px;}
+.sms_list .sms_plist_ol li p.line6{width:136px}
+.sms_list .sms_plist_ol label{position:relative;display:inline-block;}
+.sms_list .sms_plist_ol label input{position:absolute;z-index:-9999;opacity:0;width:0;height:0;}
+.sms_list .sms_plist_ol label ins{width:20px;height:20px;background:#fff;border:1px solid #c0c0c0;display:block;position:relative;border-radius:100%;}
+.sms_list .sms_plist_ol label input:checked + ins{border:1px solid #ff724c;}
+.sms_list .sms_plist_ol label input:checked + ins:after{width:12px;height:12px;background:#ff724c;border-radius:100%;position:absolute;top:3px;left:3px;content:'';}
+.sms_list .sms_ps{font-size:13px;color:#9a9a9a;letter-spacing:-.6px;margin-top:15px;}
+.sms_list .sms_ps i{font-style:normal;font-size:12px;color:#777;letter-spacing:-.5px;margin-right:5px;background:#fafafa;border:1px solid #aaa;border-radius:3rem;display:inline-block;padding:0 8px;height:18px;line-height:16px;}
+
+/* sms관리 - 포인트결제내역 */
+.sms_list .sms_pview_ol li:after{display:block;content:'';clear:both}
+.sms_list .sms_pview_ol li{border-bottom:1px solid #e6e6e6;width:100%;display:table;background:#fff;}
+.sms_list .sms_pview_ol li.on{background:#fffbfa;}
+.sms_list .sms_pview_ol li.first_line{background:#b5b5b5}
+.sms_list .sms_pview_ol li.first_line p{color:#fff !important;font-size:13px !important;padding:10px 5px;}
+.sms_list .sms_pview_ol li p{border-left:1px solid #e6e6e6;display:table-cell;text-align:center;vertical-align:middle;padding:12px 5px;font-size:14px;color:#606060;letter-spacing:-.6px;}
+.sms_list .sms_pview_ol li p:first-child{border-left:none}
+.sms_list .sms_pview_ol li p.line1{width:44px;}
+.sms_list .sms_pview_ol li p.line2{width:174px}
+.sms_list .sms_pview_ol li p.line3{width:99px}
+.sms_list .sms_pview_ol li p.line4{width:109px;}
+.sms_list .sms_pview_ol li p.line5{width:157px;}
+.sms_list .sms_pview_ol li p.line6{width:210px}
+.sms_list .sms_pview_ol li button{background:#fff;border:1px solid #d5d5d5;width:43px;height:25px;text-align:center;line-height:23px;border-radius:.3rem;font-size:13px;color:#777;letter-spacing:-.6px;}
+
+/* sms관리 - 포인트충전 결과 */
+.sms_list .result_area{padding-top:200px}
+.sms_list .result_area i{width:100px;height:100px;border-radius:100%;display:block;margin:0 auto;}
+.sms_list .result_area.fail i{border:2px solid #e84418;background:#fff url("https://img.moolban.com/unsafe/asset/partner/img/hosting/icon_close-red.png") center top 35px no-repeat;background-size:28px auto}
+.sms_list .result_area.success i{background:#ff724c url("https://img.moolban.com/unsafe/asset/partner/img/hosting/icon_check-wh.png") center top 38px no-repeat;background-size:35px auto}
+.sms_list .result_area strong{font-size:25px;font-weight:500;color:#333;letter-spacing:-1.3px;text-align:center;display:block;margin:20px auto 5px;}
+.sms_list .result_area p{font-size:15px;color:#808080;letter-spacing:-.8px;text-align:center;}
+.sms_list .result_area a{width:282px;height:53px;line-height:53px;text-align:center;background:#e84418;border-radius:.3rem;font-size:18px;color:#fff;font-weight:500;letter-spacing:-.9px;display:block;margin:20px auto 0}
+
+/* sms관리 - 템플릿 */
+.sms_list .filter_area .btn-template-add img{width:16px;margin-right:5px;position:relative;top:-2px;}
+.sms_list .button_pick{margin:30px auto 20px;font-size:0}
+.sms_list .button_pick button{height:34px;line-height:32px;padding:0 8px;background:#fff;border:1px solid #c0c0c0;font-size:16px;color:#777;letter-spacing:-.5px;margin-left:8px;}
+.sms_list .button_pick button:first-child{margin-left:0}
+.sms_list .button_pick button.active{border:1px solid #333;font-weight:500;color:#333;}
+.sms_list .sms_tlist_ol li{width:calc(50% - 5px);float:left;border:1px solid #d5d5d5;border-radius:.3rem;overflow:hidden;height:185px;margin-top:11px;background:#fff;position:relative}
+.sms_list .sms_tlist_ol li:nth-child(2n){margin-left:10px;}
+.sms_list .sms_tlist_ol dt{background:#fafafa;padding:9px 11px 8px;font-weight:500;border-bottom:1px solid #dbdbdb;font-size:15px;color:#333;}
+.sms_list .sms_tlist_ol dt i{font-weight:normal;background:#fff;border:1px solid #9a9a9a;height:23px;line-height:23px;width:33px;text-align:center;display:inline-block;font-size:13px;color:#777;font-style:normal;margin-right:8px;}
+.sms_list .sms_tlist_ol dd{padding:12px;height:105px}
+.sms_list .sms_tlist_ol dd p{font-size:14px;color:#454545;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;height:80px;line-height:20px;word-break:break-all;}
+.sms_list .sms_tlist_ol .button_box{position:absolute;bottom:0;left:0;width:100%;padding:0 12px 12px;}
+.sms_list .sms_tlist_ol .button_box button{background:#fff;border:1px solid #d5d5d5;border-radius:.3rem;text-align:center;width:44px;height:25px;line-height:23px;font-size:13px;color:#777777;letter-spacing:-.4px;margin-right:5px;}
+.sms_list .sms_tlist_ol .button_box button.del_button{background:#fafafa;}
+
+/* sms관리 - 템플릿추가 */
+.sms_list .sms_area_sty{width:382px;}
+.sms_list .sms_inner_select select{width:200px;height:38px;font-size:15px;padding:0 10px;color:#333;background:#fff url("https://img.moolban.com/unsafe/asset/partner/img/hosting/icon_select-arrow-gy.png") top 16px right 10px no-repeat;background-size:11px auto}
+.sms_list .sms_inner_tit input{width:100%;height:54px;padding:0 15px;font-size:16px;}
+.sms_list .btn-template-code{width:91px;height:25px;line-height:23px;font-size:13px;color:#777;background:#fff;border:1px solid #d5d5d5;margin-top:3px;float:right}
+.sms_list .template_subs_area{position:absolute;top:0;left:397px;width:376px;max-height:190px;overflow:hidden;overflow-y:auto;border:1px solid #e6e6e6}
+.sms_list .template_subs_area table{width:100%;}
+.sms_list .template_subs_area th{background:#b5b5b5;height:30px;text-align:center;font-size:12px;color:#fff;letter-spacing:-.5px;font-weight:normal;border-left:1px solid #e6e6e6;}
+.sms_list .template_subs_area td{height:36px;text-align:center;font-size:12px;color:#333;letter-spacing:-.5px;border-left:1px solid #e6e6e6;border-top:1px solid #e6e6e6;}
+.sms_list .template_subs_area td button{width:32px;height:24px;line-height:22px;text-align:center;border-radius:.3rem;border:1px solid #d5d5d5;text-align:center;font-size:12px;color:#777;letter-spacing:-.5px;background:#fff;padding:0}
+.sms_list .template_subs_area .line1{border-left:none;width:113px}
+.sms_list .template_subs_area .line2{width:213px}
+.sms_list .template_subs_area .line3{width:48px}
+
+
+/* 개별회원 선택팝업 */
+.each_user_modal{width:1250px;}
+.each_user_modal .modal-body{padding:0}
+.each_user_modal label{cursor:pointer;margin:0}
+.each_user_modal label + ins{margin:0}
+.each_user_modal select::-ms-expand{display:none}
+.each_user_modal select{appearance:none;-moz-appearance:none;-webkit-appearance:none;}
+.each_user_modal button{cursor:pointer;outline:none}
+.each_user_modal button:focus,
+.each_user_modal button:active{box-shadow:none}
+.each_user_modal .tit_box{background:#fafafa;padding:10px 15px;font-size:13px;color:#606060;letter-spacing:-.3px;font-weight:500;border-top:1px solid #eee;border-bottom:1px solid #eee;}
+.each_user_modal .tit_box p{margin:0;font-size:13px;color:#606060;letter-spacing:-.3px;font-weight:500;}
+.each_user_modal dl.tit_box{padding:7px 15px;margin:0}
+.each_user_modal .tit_box dt{margin:0;font-size:13px;color:#606060;letter-spacing:-.3px;font-weight:500;float:left;padding-top:3px;}
+.each_user_modal .tit_box dt span{color:#ff724c;}
+.each_user_modal .tit_box dd{float:right;}
+.each_user_modal .tit_box dd button{display:block;float:left;padding:0 8px;height:24px;line-height:22px;text-align:center;border:1px solid #c0c0c0;background:#fff;font-size:14px;color:#777;letter-spacing:-.3px;}
+.each_user_modal .tit_box dd button.mulban_button{border:1px solid #ff724c;color:#ff724c;}
+.each_user_modal .tit_box dd select{width:110px;height:24px;border:1px solid #c0c0c0;padding:0 24px 0 8px;background:#fff url('https://img.moolban.com/unsafe/asset/partner/img/hosting/icon_select-arrow.png') top 10px right 8px no-repeat;background-size:8px 5px;float:left;margin-left:8px;font-size:14px;color:#777;}
+.each_user_modal .left_area{width:calc(50% - 9px);float:left;position:relative;}
+.each_user_modal .left_area:after{width:18px;height:661px;border-left:1px dashed #b5b5b5;border-right:1px dashed #b5b5b5;content:'';display:block;position:absolute;top:0;right:-18px;}
+.each_user_modal .right_area{width:calc(50% - 9px);float:right;}
+.each_user_modal .each_user_box1 table{width:100%;}
+.each_user_modal .each_user_box1 th{width:132px;height:47px;padding:0 15px;font-size:13px;color:#606060;letter-spacing:-.3px;border-right:1px solid #eee;border-bottom:1px solid #eee;}
+.each_user_modal .each_user_box1 td{padding:0 12px;height:47px;border-bottom:1px solid #eee;}
+.each_user_modal .each_user_box1 td select{width:130px;height:35px;border:1px solid #d5d5d5;border-radius:.3rem;padding:0 25px 0 10px;background:#fff url('https://img.moolban.com/unsafe/asset/partner/img/hosting/icon_select-arrow-gy.png') top 14px right 10px no-repeat;background-size:11px 6px;display:inline-block;}
+.each_user_modal .each_user_box1 td input[type="text"]{width:245px;height:35px;border:1px solid #d5d5d5;border-radius:.3rem;display:inline-block;margin-left:8px;}
+.each_user_modal .each_user_box1 label.label_sty1{margin-right:25px;}
+.each_user_modal .each_user_box1 label.label_sty1 input[type="radio"] + ins{width:16px;height:16px;top:1px;}
+.each_user_modal .each_user_box1 label.label_sty1 input[type="radio"]:checked + ins:after{width:9.6px;height:9.6px;left:2.2px;top:2.2px;}
+.each_user_modal .each_user_box1 label.label_sty1 input[type="radio"] + ins + span{font-size:13px;font-weight:normal;}
+.each_user_modal .each_user_box1 .sms_wrg{font-size:13px;color:#9a9a9a;letter-spacing:-.6px;margin:13px 0 20px 43px;padding-left:15px;}
+.each_user_modal .each_user_box1 .sms_wrg i{background:#aaa;width:38px;height:18px;line-height:18px;text-align:center;border-radius:3rem;display:inline-block;margin-right:5px;font-size:12px;color:#fff;letter-spacing:-.5px;font-weight:500;font-style:normal;margin-left:-43px}
+.each_user_modal .each_user_box1 .search_button{position:relative;width:75px;height:30px;margin:0 auto 15px;}
+.each_user_modal .each_user_box1 .search_button label{width:75px;height:30px;line-height:30px;border:1px solid #aaa;background:#fafafa;text-align:center;border-radius:.3rem;font-size:14px;color:#606060;font-weight:500;letter-spacing:-.4px;}
+.each_user_modal .each_user_box1 .search_button input{position:absolute;z-index:-9999;opacity:0;width:0;height:0;}
+.each_user_modal .each_user_box2 .scrollAuto1{height:322.3px;overflow-y:auto;}
+.each_user_modal .each_user_box2 .scrollAuto2{height:554px;overflow-y:auto;}
+.each_user_modal .each_user_box2 label.label_sty2{margin:0;}
+.each_user_modal .each_user_box2 label.label_sty2 input[type="checkbox"] + ins{margin:0;}
+.each_user_modal .each_user_box2 table{width:100%;background:#fff;border-collapse:separate;border-spacing:0;}
+.each_user_modal .each_user_box2 table tr{border-bottom:1px solid #e6e6e6}
+.each_user_modal .each_user_box2 table .on td{background:#fffbfa;}
+.each_user_modal .each_user_box2 table th{background:#b5b5b5;height:39px;text-align:center;font-size:13px;color:#fff;text-align:center;font-weight:normal;border-left:1px solid #e6e6e6;border-bottom:1px solid #e6e6e6}
+.each_user_modal .each_user_box2 table th:first-child,
+.each_user_modal .each_user_box2 table td:first-child{border-left:none;font-size:0}
+.each_user_modal .each_user_box2 table th.line1{width:40px;}
+.each_user_modal .each_user_box2 table th.line2{width:39px;}
+.each_user_modal .each_user_box2 table th.line3{width:106px;}
+.each_user_modal .each_user_box2 table th.line4{width:231px;}
+.each_user_modal .each_user_box2 table th.line5{width:128px;}
+.each_user_modal .each_user_box2 table th.line6{width:67px;}
+.each_user_modal .each_user_box2 table td{height:58px;font-size:14px;color:#606060;letter-spacing:-.6px;text-align:center;border-left:1px solid #e6e6e6;border-bottom:1px solid #e6e6e6;position:relative;}
+.each_user_modal .each_user_box2 table td span{display:block;font-size:12px;letter-spacing:-.5px;color:#2876a1;text-align:center;}
+.each_user_modal .each_user_box2 table td span.denial{color:#e84418}
+.each_user_modal .each_user_box2 table td button{width:43px;height:25px;border:1px solid #d5d5d5;border-radius:.3rem;background:#fff;text-align:center;font-size:13px;color:#777;letter-spacing:-.6px;}
+.each_user_modal .modal-footer{display:block;font-size:0;text-align:center;padding:10px;}
+.each_user_modal .modal-footer button{width:160px;height:49px;line-height:47px;background:#b0b0b0;border-radius:.3rem;text-align:center;font-size:17px;color:#fff;border:none}
+.each_user_modal .modal-footer button.btn-user-modal-submit{background:#e84418;margin-left:8px}
+.each_user_modal .user_list_none p{font-size:16px;text-align:center;font-weight:bold;padding:30px 0;margin:0}
+
+/* 무통장결제 팝업 */
+.untouched_pay_modal{width:502px;margin:0 auto}
+.untouched_pay_modal label{cursor:pointer;margin:0}
+.untouched_pay_modal select::-ms-expand{display:none}
+.untouched_pay_modal select{appearance:none;-moz-appearance:none;-webkit-appearance:none;}
+.untouched_pay_modal button{cursor:pointer;outline:none}
+.untouched_pay_modal button:focus,
+.untouched_pay_modal button:active{box-shadow:none}
+.untouched_pay_modal .modal-body{padding:0}
+.untouched_pay_modal .modal-header{padding:15px;}
+.untouched_pay_modal .modal-header p{font-size:20px;color:#333;font-weight:500;text-align:center;margin:0}
+.untouched_pay_modal .untouched_pay_box{padding:17px 15px;}
+.untouched_pay_modal .untouched_pay_box dl:after{display:block;content:'';clear:both}
+.untouched_pay_modal .untouched_pay_box dl{margin:15px 0 0;width:100%;}
+.untouched_pay_modal .untouched_pay_box dl:first-child{margin-top:0}
+.untouched_pay_modal .untouched_pay_box dt{float:left;width:115px;font-size:13px;color:#606060;font-weight:normal;padding-top:2px}
+.untouched_pay_modal .untouched_pay_box dd{float:left;width:calc(100% - 115px);font-size:16px;color:#333333;font-weight:500;letter-spacing:-.5px;}
+.untouched_pay_modal .untouched_pay_box dd p{font-size:0;margin:0}
+.untouched_pay_modal .untouched_pay_box dd em{font-size:1em;font-style:normal;}
+.untouched_pay_modal .untouched_pay_box dd em:before{width:2px;height:14px;background:#d5d5d5;content:'';display:inline-block;margin:0 8px;position:relative;top:1px;}
+.untouched_pay_modal .untouched_pay_box dd button{margin-left:10px;width:30px;height:19px;line-height:17px;border:1px solid #2876a1;border-radius:.2rem;background:#fff;font-size:13px;color:#2876a1;letter-spacing:-.4px;padding:0;text-align:center;}
+.untouched_pay_modal .untouched_pay_box label.label_sty1{margin-bottom:10px;margin-right:25px;}
+.untouched_pay_modal .untouched_pay_box label.label_sty1 input[type="radio"] + ins{width:16px;height:16px;top:1px;}
+.untouched_pay_modal .untouched_pay_box label.label_sty1 input[type="radio"]:checked + ins:after{width:8px;height:8px;left:3px;top:3px;}
+.untouched_pay_modal .untouched_pay_box label.label_sty1 input[type="radio"] + ins + span{font-size:13px;font-weight:normal;}
+.untouched_pay_modal .untouched_pay_box strong{font-size:13px;color:#333333;letter-spacing:-.4px;font-weight:normal;}
+.untouched_pay_modal .untouched_pay_box strong + input[type="text"]{width:200px;}
+.untouched_pay_modal .untouched_pay_box select{width:150px;height:35px;border:1px solid #d5d5d5;border-radius:.3rem;padding:0 25px 0 10px;background:#fff url('https://img.moolban.com/unsafe/asset/partner/img/hosting/icon_select-arrow-gy.png') top 14px right 10px no-repeat;background-size:11px 6px;display:inline-block;}
+.untouched_pay_modal .untouched_pay_box input[type="text"]{width:195px;height:35px;border:1px solid #d5d5d5;border-radius:.3rem;display:inline-block;margin-left:8px;font-size:13px;color:#333;}
+.untouched_pay_modal .untouched_pay_box label.label_sty2{margin:10px 0 0}
+.untouched_pay_modal .untouched_pay_box label.label_sty2 input[type="checkbox"] + ins + span{font-weight:normal;}
+.untouched_pay_modal .untouched_pay_box2{border-top:1px dotted #e6e6e6;background:#fafafa;}
+.untouched_pay_modal .modal-footer{border-top:1px solid #e6e6e6}
+.untouched_pay_modal .modal-footer button{float:left;width:50%;height:49px;line-height:47px;text-align:center;border:none;background:none;outline:none;text-align:center;color:#777;font-size:15px;}
+.untouched_pay_modal .modal-footer button.untouched-pay-btn{border-left:1px solid #e6e6e6;font-weight:500;color:#ff724c;}
+
+/* 예약대상 선택팝업 */
+.reserve_user_modal{width:620px;}
+.reserve_user_modal .modal-body{padding:0}
+.reserve_user_modal label{cursor:pointer;margin:0}
+.reserve_user_modal label.label_sty2 input[type="checkbox"] + ins{margin:0}
+.reserve_user_modal select::-ms-expand{display:none}
+.reserve_user_modal select{appearance:none;-moz-appearance:none;-webkit-appearance:none;}
+.reserve_user_modal button{cursor:pointer;outline:none}
+.reserve_user_modal button:focus,
+.reserve_user_modal button:active{box-shadow:none}
+.reserve_user_modal .tit_box{background:#fafafa;padding:10px 15px;font-size:13px;color:#606060;letter-spacing:-.3px;font-weight:500;border-top:1px solid #eee;border-bottom:1px solid #eee;}
+.reserve_user_modal .tit_box p{margin:0;font-size:13px;color:#606060;letter-spacing:-.3px;font-weight:500;}
+.reserve_user_modal dl.tit_box{padding:7px 15px;margin:0}
+.reserve_user_modal .tit_box dt{margin:0;font-size:13px;color:#606060;letter-spacing:-.3px;font-weight:500;float:left;}
+.reserve_user_modal .tit_box dt span{color:#ff724c;}
+.reserve_user_modal .tit_box dt + dt{margin-left:10px}
+.reserve_user_modal .tit_box dd{float:right;}
+.reserve_user_modal .tit_box dd button{display:block;float:left;padding:0 8px;height:24px;line-height:22px;text-align:center;border:1px solid #c0c0c0;background:#fff;font-size:14px;color:#777;letter-spacing:-.3px;}
+.reserve_user_modal .tit_box dd button.mulban_button{border:1px solid #ff724c;color:#ff724c;}
+.reserve_user_modal .tit_box dd select{width:110px;height:24px;border:1px solid #c0c0c0;padding:0 24px 0 8px;background:#fff url('https://img.moolban.com/unsafe/asset/partner/img/hosting/icon_select-arrow.png') top 10px right 8px no-repeat;background-size:8px 5px;float:left;margin-left:8px;font-size:14px;color:#777;}
+.reserve_user_modal .reserve_user_box2 .scrollAuto1{height:322.3px;overflow-y:auto;}
+.reserve_user_modal .reserve_user_box1 table{width:100%;}
+.reserve_user_modal .reserve_user_box1 th{width:80px;height:52px;text-align:center;font-size:13px;color:#606060;letter-spacing:-.3px;border-right:1px solid #eee;border-bottom:1px solid #eee;}
+.reserve_user_modal .reserve_user_box1 td{padding:0 12px;height:52px;border-bottom:1px solid #eee;}
+.reserve_user_modal .reserve_user_box1 td em{display:block;float:left;width:45%;padding:0 15px;background:#fff;border:1px solid #eee;position:relative;font-style:normal;}
+.reserve_user_modal .reserve_user_box1 td input{width:100%;font-size:16px;border:none;outline:none;position:relative;z-index:1;background:none;height:34px;text-align:left;}
+.reserve_user_modal .reserve_user_box1 td em img{position:absolute;top:7px;right:7px;width:26px;}
+.reserve_user_modal .reserve_user_box1 td span{width:10%;float:left;display:block;height:34px;line-height:34px;text-align:center}
+.reserve_user_modal .reserve_user_box1 td span i{width:40%;height:2px;background:#dadada;display:inline-block;margin:0 auto;vertical-align:middle;}
+.reserve_user_modal .reserve_user_box1 .search_button{position:relative;width:75px;height:30px;margin:20px auto 15px;}
+.reserve_user_modal .reserve_user_box1 .search_button label{width:75px;height:30px;line-height:30px;border:1px solid #aaa;background:#fafafa;text-align:center;border-radius:.3rem;font-size:14px;color:#606060;font-weight:500;letter-spacing:-.4px;}
+.reserve_user_modal .reserve_user_box1 .search_button input{position:absolute;z-index:-9999;opacity:0;width:0;height:0;}
+.reserve_user_modal .reserve_user_box2 table{width:100%;background:#fff;border-collapse:separate;border-spacing:0;}
+.reserve_user_modal .reserve_user_box2 table tr{border-bottom:1px solid #e6e6e6}
+.reserve_user_modal .reserve_user_box2 table .on td{background:#fffbfa;}
+.reserve_user_modal .reserve_user_box2 table th{background:#b5b5b5;height:39px;text-align:center;font-size:13px;color:#fff;text-align:center;font-weight:normal;border-left:1px solid #e6e6e6;border-bottom:1px solid #e6e6e6}
+.reserve_user_modal .reserve_user_box2 table th:first-child,
+.reserve_user_modal .reserve_user_box2 table td:first-child{border-left:none;font-size:0}
+.reserve_user_modal .reserve_user_box2 table th.line1{width:40px;}
+.reserve_user_modal .reserve_user_box2 table th.line2{width:60px;}
+.reserve_user_modal .reserve_user_box2 table th.line3{width:106px;}
+.reserve_user_modal .reserve_user_box2 table th.line4{width:284px;}
+.reserve_user_modal .reserve_user_box2 table th.line5{width:128px;}
+.reserve_user_modal .reserve_user_box2 table td{height:58px;font-size:14px;color:#606060;letter-spacing:-.6px;text-align:center;border-left:1px solid #e6e6e6;border-bottom:1px solid #e6e6e6;position:relative;}
+.reserve_user_modal .reserve_user_box2 table td i{font-size:16px;font-style:normal;}
+.reserve_user_modal .reserve_user_box2 table td span{display:block;font-size:12px;letter-spacing:-.5px;color:#2876a1;text-align:center;}
+.reserve_user_modal .reserve_user_box2 table td span.denial{color:#e84418}
+.reserve_user_modal .reserve_user_box2 table td button{width:43px;height:25px;border:1px solid #d5d5d5;border-radius:.3rem;background:#fff;text-align:center;font-size:13px;color:#777;letter-spacing:-.6px;}
+.reserve_user_modal .fot_box{background:#fafafa;padding:10px 15px;font-size:13px;color:#606060;letter-spacing:-.3px;font-weight:500;border-top:1px solid #eee;position:relative;top:-1px;border-bottom:1px solid #e5e5e5}
+.reserve_user_modal .fot_box p{margin:0;font-size:13px;color:#606060;letter-spacing:-.3px;font-weight:500;}
+.reserve_user_modal .fot_box p span{color:#ff724c;}
+.reserve_user_modal .modal-footer{display:block;font-size:0;text-align:center;padding:10px;border-top:none}
+.reserve_user_modal .modal-footer button{width:160px;height:49px;line-height:47px;background:#b0b0b0;border-radius:.3rem;text-align:center;font-size:17px;color:#fff;border:none}
+.reserve_user_modal .modal-footer button.btn-user-modal-submit{background:#e84418;margin-left:8px}
+.reserve_user_modal .reserve_user_list_none p{font-size:16px;text-align:center;font-weight:bold;padding:30px 0;margin:0}
+
+
+@media (max-width: 1024px){
+    .tbr{display:block}
+
+    /* 기본설정 - 메인배너 등록 */
+    .homepage_list .banner_write_area .banner_img_box{position:relative;width:100%;padding-top:30.771%;}
+    .homepage_list .banner_mo_area .banner_img_box{padding-top:55.835%}
+
+    /* 기본설정 - 예약및문의안내 1024 */
+    .homepage_list .form-group_deposit .form-group_item.bank_account_list_area .select_line select{width:calc(50% - 36.5px);}
+    .homepage_list .form-group_deposit #list_0 .form-group_item.bank_account_list_area .input_line input{width:calc(50% - 36.5px);}
+    .homepage_list .form-group_deposit #list_0 .form-group_item.bank_account_list_area .input_line input:first-child{width:calc(50% - 36.5px);}
+    .homepage_list .form-group_deposit .form-group_item.bank_account_list_area .input_line input{width:calc(50% - 36.5px);}
+    .homepage_list .form-group_deposit .form-group_item.bank_account_list_area .input_line input:first-child{width:calc(50% - 36.5px);}
+
+
+    /* sms관리 - 발송 1024 */
+    .sms_list .template_box,
+    .sms_list .btn-template-code,
+    .sms_list .txt_template_code,
+    .sms_list .template_subs_area{display:none}
+
+    /* sms관리 - 발송내역 1024 */
+    .sms_list .sms_list_ol li{width:100%;height:230px;}
+    .sms_list .sms_list_ol li:nth-child(2n){margin-left:0}
+    .sms_list .sms_list_ol .con{height:140px;}
+
+    /* sms관리 - 발송내역상세 1024 */
+    .sms_list .sms_view_ol li p.line1{width:40px;}
+    .sms_list .sms_view_ol li p.line2{width:35px}
+    .sms_list .sms_view_ol li p.line3{width:112px}
+    .sms_list .sms_view_ol li p.line4{width:40px}
+    .sms_list .sms_view_ol li p.line5{width:calc(100% - 402px)}
+    .sms_list .sms_view_ol li p.line6{width:112px}
+    .sms_list .sms_view_ol li p.line7{width:63px}
+
+    /* sms관리 - 포인트충전 1024 */
+    .sms_list .sms_plist_ol{padding:30px 0 0}
+    .sms_list .sms_plist_ol li p.line1{width:60px;}
+    .sms_list .sms_plist_ol li p.line2{width:calc(100% - 452px)}
+    .sms_list .sms_plist_ol li p.line3{width:71px}
+    .sms_list .sms_plist_ol li p.line4{width:71px}
+    .sms_list .sms_plist_ol li p.line5{width:125px}
+    .sms_list .sms_plist_ol li p.line6{width:125px}
+
+    /* sms관리 - 포인트결제내역 1024 */
+    .sms_list .sms_pview_ol li p.line1{width:40px;}
+    .sms_list .sms_pview_ol li p.line2{width:calc(100% - 404px)}
+    .sms_list .sms_pview_ol li p.line3{width:71px}
+    .sms_list .sms_pview_ol li p.line4{width:82px;}
+    .sms_list .sms_pview_ol li p.line5{width:78px;}
+    .sms_list .sms_pview_ol li p.line6{width:133px}
+
+    /* sms관리 - 템플릿 1024 */
+    .sms_list .sms_tlist_ol li{width:100%;}
+    .sms_list .sms_tlist_ol li:nth-child(2n){margin-left:0}
+
+}
+
+@media (max-width: 767px){
+    body.gray_bg{background:#f7f7f7 !important}
+    body.gray_bg #page-wrapper{background:#f7f7f7}
+
+    .mbr{display:block}
+
+    .wrap_button{text-align:center;margin:20px 0;font-size:0}
+    .wrap_button button{width:144px;height:46px;line-height:44px;font-size:15px;}
+    .wrap_button2 button:first-child{margin-right:5px;}
+
+    .title_sty1 p{font-size:16px;}
+    .title_sty1 span{font-size:12px;}
+
+    .title_sty2{margin:0 0 12px;}
+    .title_sty2 p{font-size:16px;}
+    .title_sty2 span{display:block;font-size:12px;margin-top:2px;margin-left:0}
+
+    .title_sty3{margin:0 0 12px;}
+    .title_sty3.bm_n{margin:0}
+    .title_sty3 p{font-size:16px;}
+    .title_sty3 p em{display:block;font-size:16px;margin-top:9px;}
+    .title_sty3 p em:before{margin-left:0;height:13px;margin-right:8px}
+    .title_sty3 a{width:119px;height:29px;line-height:29px;font-size:13px;padding:0;text-align:center;letter-spacing:-.6px;margin-top:13px;}
+    .title_sty3 span{font-size:12px;margin-top:2px;}
+    .title_sty3 p + i{font-size:12px;}
+    .title_sty3 p + i em{font-size:12px}
+
+    dl.title_sty3{margin:0 0 12px}
+    .title_sty3 dt{font-size:16px;}
+    .title_sty3 dd{display:none}
+
+    .title_sty4{padding:10px 7px;}
+    .title_sty4 p{font-size:16px;}
+
+    .bt_bar{padding:19px 13px 13px !important;position:relative;}
+    .bt_bar:before{width:calc(100% + 13px);height:6px;background:#f7f7f7;display:block;content:'';position:absolute;top:0;left:-13px;border-top:1px solid #e6e6e6;border-bottom:1px solid #e6e6e6}
+
+    label.label_sty1 input[type="radio"] + ins{width:15px;height:15px;margin-right:3px;top:3px;}
+    label.label_sty1 input[type="radio"] + ins + span{font-size:14px;}
+    label.label_sty1 input[type="radio"]:checked + ins:after{width:9px;height:9px;top:2px;left:2px;}
+
+    label.label_sty2 input[type="checkbox"] + ins{width:17px;height:17px;margin-right:5px;}
+    label.label_sty2 input[type="checkbox"] + ins + span{font-size:13px}
+    label.label_sty2 input[type="checkbox"]:checked + ins{background:#fff url('https://img.moolban.com/unsafe/asset/partner/img/hosting/icon_checkbox--on.png') top 5px center no-repeat;background-size:9px auto;}
+
+
+    /* 기본설정 - 홈페이지 관리 767 */
+    .homepage_list{padding:51px 0 46px}
+    .homepage_list .inner_area{padding:20px 13px 13px;margin-top:0;position:relative;}
+    .homepage_list .inner_area:before{position:absolute;top:0;left:0;width:100%;background:#f7f7f7;display:block;height:7px;border-top:1px solid #e6e6e6;border-bottom:1px solid #e6e6e6;content:'';}
+    .homepage_list .inner_box{margin-top:12px}
+    .homepage_list .inner_area1:before{display:none;padding:13px}
+    .homepage_list .inner_area1 .btn_box{float:none;}
+    .homepage_list .inner_area1 .btn_box:after{display:block;content:'';clear:both}
+    .homepage_list .inner_area1 .btn_box a{width:74px;height:30px;line-height:30px;font-size:12px;}
+    .homepage_list .inner_area1 .input_box:after{display:block;content:'';clear:both}
+    .homepage_list .inner_area1 .input_box{width:100%;float:none;margin-left:0;margin-top:15px;height:auto;line-height:normal;;padding-bottom:10px;}
+    .homepage_list .inner_area1 .input_box p{font-size:13px;}
+    .homepage_list .inner_area1 .input_box input{font-size:13px;padding:0 5px;width:calc(100% - 103px)}
+    .homepage_list .half_area{width:100%;float:none;position:relative;}
+    .homepage_list .half_area:first-child{padding-bottom:33px}
+    .homepage_list .half_area:first-child:after{position:absolute;top:90px;left:-13px;width:calc(100% + 26px);background:#f7f7f7;display:block;height:7px;border-top:1px solid #e6e6e6;border-bottom:1px solid #e6e6e6;content:'';}
+    .homepage_list .inner_area2 input{height:43px;font-size:13px;padding:0 10px;}
+    .homepage_list .inner_area3{display:none}
+    .homepage_list .inner_area4 label{width:calc(20% - 4.8px);margin-left:6px}
+    .homepage_list .inner_area4 label:first-child{margin-left:0}
+    .homepage_list .inner_area4 label ins{height:54px;}
+    .homepage_list .inner_area4 label span{height:28px;line-height:28px;font-size:12px}
+    .homepage_list .inner_area5 .img_box{width:90px;height:90px;line-height:90px;}
+    .homepage_list .inner_area5 .upload_box{padding-left:10px;}
+    .homepage_list .inner_area5 .upload_box p{padding-top:38px;font-size:11px;margin-bottom:5px;}
+    .homepage_list .inner_area5 .upload_box label{width:63px;font-size:12px;}
+    .homepage_list .inner_area5 .del_box a{width:63px;font-size:12px;}
+    .homepage_list .wrap_btn{background:#f7f7f7;padding:15px 13px;border-top:1px solid #e6e6e6}
+
+    /* 기본설정 - 출조안내 관리 767 */
+    .homepage_list .chuljo_write_area{padding:13px}
+
+    /* 기본설정 - 메인배너 등록 767 */
+    .homepage_list .banner_write_area{padding:13px}
+    .homepage_list .banner_write_area .full_input{height:43px;padding:0 10px;font-size:13px}
+    .homepage_list .banner_write_area .banner_remove_box a{width:63px;font-size:12px}
+    .homepage_list .banner_write_area .banner_file_box{width:63px;}
+    .homepage_list .banner_write_area .banner_file_box label{font-size:13px;}
+    .homepage_list .banner_write_area .banner_inner{margin-top:12px}
+    .homepage_list .banner_write_area .banner_inner p{width:45%;height:38px;line-height:35px;background-size:15px auto}
+    .homepage_list .banner_write_area .banner_inner p strong{font-size:12px;padding-left:7px;}
+    .homepage_list .banner_write_area .banner_inner p input{font-size:12px;padding:0 31px 0 46px}
+    .homepage_list .banner_write_area .banner_inner i{width:10%;height:38px;line-height:38px;}
+    .homepage_list .banner_write_area .banner_inner i:after{width:60%;}
+    .homepage_list .banner_mo_area .write_full{width:100%;}
+    .homepage_list .banner_mo_area .banner_img_box{padding-top:56.08%}
+
+
+    /* 기본설정 - 출조공지관리 767 */
+    .homepage_list .chuljo_notice_table{background:#fff;}
+    .homepage_list .chuljo_notice_table li p.line1{width:40px}
+    .homepage_list .chuljo_notice_table li p.line2{width:calc(100% - 128px)}
+    .homepage_list .chuljo_notice_table li p.line3{width:40px}
+    .homepage_list .chuljo_notice_table li p.line4{width:48px}
+    .homepage_list .chuljo_notice_table li p.line4 button{display:inline-block;margin:0;}
+    .homepage_list .chuljo_notice_table li p.line4 .bg-cancel{display:inline-block;margin:5px 0 0}
+    .homepage_list .chuljo_notice_table li p.line5{display:none}
+    .homepage_list .chuljo_notice_table li p{font-size:12px;padding:9px 5px 8px}
+    .homepage_list .chuljo_notice_table li.first_line p{font-size:12px;padding:6px 0}
+
+    /* 기본설정 - 예약및문의안내 767 */
+    .homepage_list .form-horizontal .form-group{border:none}
+    .homepage_list .form-group_deposit .deposit-wrap{padding:0}
+    .homepage_list .form-group_deposit .form-group_item.bank_account_list_area{margin-top:8px;padding-top:8px;}
+    .homepage_list .form-group_deposit .form-group_item.bank_account_list_area .select_line select{width:100%;margin-left:0;}
+    .homepage_list .form-group_deposit .form-group_item.bank_account_list_area .input_line input:first-child{width:calc(50% - 28px);margin-right:8px;}
+    .homepage_list .form-group_deposit .form-group_item.bank_account_list_area .input_line input{width:calc(50% - 28px);}
+    .homepage_list .form-group_deposit .form-group_item.bank_account_list_area .form-group_btn_cancel{margin-left:8px;}
+    .homepage_list .form-group_deposit .form-group_item.bank_account_list_area .form-group_btn_cancel a{width:40px;height:43px;line-height:43px;font-size:13px;}
+
+    .management-root .sms_wrg_box{background:#fff;padding:8px 10px;border-bottom:1px solid #e6e6e6}
+    .management-root .sms_wrg_box .sms_wrg{margin-top:0}
+    .root-bottom .right_txt{height:27px;line-height:27px;font-size:12px}
+
+    .filter_box .filter_line_reply .filter_select-box{width:67px;}
+    .filter_box .filter_line_reply .filter_select-box select{text-align:left;text-indent:0;font-size:12px;}
+    .filter_box .filter_line_reply .filter_search-input{width:calc(100% - 72px)}
+    .filter_box .filter_line_reply .filter_search-input input{height:33px;padding:0 7px;font-size:12px}
+
+
+
+    /* sms관리 - 발송 767 */
+    .sms_list{padding:51px 0 46px}
+    .sms_list .sms_write_area{padding:13px;background:#fff;}
+    .sms_list .sms_inner select{padding:0 25px 0 10px;height:35px;font-size:13px;background:#fff url("https://img.moolban.com/unsafe/asset/partner/img/hosting/icon_select-arrow-gy.png") top 14px right 10px no-repeat;background-size:11px auto}
+    .sms_list .sms_add_box{width:100%;}
+    .sms_list .sms_add_box .form-rcv-area{width:calc(100% - 51px);}
+    .sms_list .sms_add_box .form-rcv-area input{height:43px;padding:0 10px;font-size:13px;}
+    .sms_list .sms_add_box button{width:43px;height:43px;background:#fff url("https://img.moolban.com/unsafe/asset/partner/img/hosting/icon_plus-gy.png") top 15px center no-repeat;background-size:14px auto}
+    .sms_list .sms_add_box dl{margin-top:13px;min-height:176px;}
+    .sms_list .sms_add_box dt{height:34px;line-height:34px;padding:0 10px;font-size:12px}
+    .sms_list .sms_add_box dd p{padding:8px 10px;font-size:13px;}
+    .sms_list .sms_add_box dd button{width:37px;height:34px;line-height:34px;background:url("https://img.moolban.com/unsafe/asset/partner/img/hosting/icon_close-gy.png") top 8px center no-repeat;background-size:16px auto}
+    .sms_list .sms_txt_box{width:100%;}
+    .sms_list .sms_txt_box textarea{padding:12px 10px;font-size:13px}
+    .sms_list .sms_txt_box .sms-input{font-size:12px;margin-top:10px;}
+    .sms_list .wrap_btn{background:#f7f7f7;padding:15px 13px;border-top:1px solid #e6e6e6;margin-top:0}
+    .sms_list .member_box .btn_num{margin:10px 0 15px}
+    .sms_list .member_box .btn_num button{font-size:13px;height:29px;line-height:29px;width:105px;}
+    .sms_list .member_box .num_text{margin:12px 0 9px;}
+    .sms_list .member_box .num_text p{font-size:13px}
+    .sms_list .member_box .num_text strong{font-size:13px;}
+    .sms_list .member_box .num_text strong:before{height:12px;top:1px}
+    .sms_list .member_box .sms_wrg{font-size:12px;margin-left:36px;margin-top:5px;}
+    .sms_list .member_box .sms_wrg i{font-size:12px;width:30px;height:18px;line-height:18px;margin-right:5px;margin-left:-36px}
+
+
+    /* sms관리 - 발송내역 767 */
+    .sms_pick{margin:12px;}
+    .sms_pick p{font-size:12px;}
+    .sms_list .sms_list_ol{padding:0 13px}
+    .sms_list .sms_list_ol li{margin-top:6px;height:222px;}
+    .sms_list .sms_list_ol dt{padding:8px}
+    .sms_list .sms_list_ol dt i{width:29px;height:20px;line-height:20px;font-size:12px;}
+    .sms_list .sms_list_ol dt span{font-size:12px;}
+    .sms_list .sms_list_ol dt span strong{font-size:12px;}
+    .sms_list .sms_list_ol dt span strong:before{height:10px;}
+    .sms_list .sms_list_ol dt span em{font-size:12px}
+    .sms_list .sms_list_ol .con{height:146px;padding:10px 8px;}
+    .sms_list .sms_list_ol .con strong{font-size:13px;}
+    .sms_list .sms_list_ol .con strong em:before{height:11px;}
+    .sms_list .sms_list_ol .con p{font-size:12px;-webkit-line-clamp:4;height:75px;line-height:19px;}
+    .sms_list .sms_list_ol .con span{padding:10px 8px;font-size:12px;}
+    .sms_list .sms_list_ol .stg{font-size:12px;padding:10px 12px;}
+    .sms_list .sms_list_ol .stg a{font-size:12px;padding-right:10px;background:url("https://img.moolban.com/unsafe/asset/partner/img/ps/icon_04.png") top 3px right no-repeat;background-size:5px 12px;}
+    .sms_list .page_area{margin-bottom:20px}
+
+    /* sms관리 - 발송내역상세 767 */
+    .sms_list .filter_area .mulban_btn{padding:0 8px;height:25px;line-height:25px;font-size:13px;top:11px;right:13px;}
+    .sms_list .sms_view_ol li.first_line p{font-size:12px;letter-spacing:-.5px;padding:15px 0}
+    .sms_list .sms_view_ol li p{font-size:12px;padding:8px 3px}
+    .sms_list .sms_view_ol li p.line1{width:25px;}
+    .sms_list .sms_view_ol li p.line2{width:28px}
+    .sms_list .sms_view_ol li p.line3{width:63px;word-break:break-word}
+    .sms_list .sms_view_ol li p.line4{width:38px}
+    .sms_list .sms_view_ol li p.line5{width:calc(100% - 265px)}
+    .sms_list .sms_view_ol li p.line6{width:57px}
+    .sms_list .sms_view_ol li p.line7{width:54px}
+    .sms_list .sms_view_ol label ins{width:17px;height:17px;}
+    .sms_list .sms_view_ol label input:checked + ins{background:#fff url("https://img.moolban.com/unsafe/asset/partner/img/ps/ico_check.png") top 4px center no-repeat;background-size:9px auto}
+    .sms_list .sms_view_ol li button{width:46px;height:24px;line-height:22px;font-size:12px;letter-spacing:-.5px}
+    .sms_list .sms_view_ol li.last_line{padding:8px 10px;}
+    .sms_list .sms_view_ol li.last_line a{width:133px;height:27px;line-height:27px;font-size:13px;}
+
+    /* sms관리 - 포인트충전 767 */
+    .sms_list .sms_plist_ol{padding:13px 0 0;}
+    .sms_list .sms_plist_ol li.first_line p{font-size:12px;letter-spacing:-.5px;padding:15px 0}
+    .sms_list .sms_plist_ol li p{font-size:12px;padding:8px 3px}
+    .sms_list .sms_plist_ol li p.line1{width:30px;}
+    .sms_list .sms_plist_ol li p.line2{width:calc(100% - 252px)}
+    .sms_list .sms_plist_ol li p.line3{width:61px}
+    .sms_list .sms_plist_ol li p.line4{width:61px}
+    .sms_list .sms_plist_ol li p.line5{width:50px}
+    .sms_list .sms_plist_ol li p.line6{width:50px}
+    .sms_list .sms_plist_ol label ins{width:16px;height:16px;}
+    .sms_list .sms_plist_ol label input:checked + ins:after{width:10px;height:10px;top:2px;left:2px;}
+    .sms_list .sms_ps{padding:13px 12px;margin:0;font-size:12px}
+    .sms_list .sms_ps i{display:block;width:30px;margin-bottom:5px;padding:0;text-align:center;}
+
+    /* sms관리 - 포인트결제내역 767 */
+    .sms_list .sms_pview_ol li.first_line p{font-size:12px;letter-spacing:-.5px;padding:15px 0}
+    .sms_list .sms_pview_ol li p{font-size:12px;padding:8px 3px}
+    .sms_list .sms_pview_ol li p.line1{width:28px;}
+    .sms_list .sms_pview_ol li p.line2{width:calc(100% - 241px)}
+    .sms_list .sms_pview_ol li p.line3{width:60px}
+    .sms_list .sms_pview_ol li p.line4{width:49px;}
+    .sms_list .sms_pview_ol li p.line5{width:49px;}
+    .sms_list .sms_pview_ol li p.line6{width:55px}
+
+    /* sms관리 - 포인트충전 결과 767 */
+    .sms_list .result_area{padding-top:80px;}
+    .sms_list .result_area i{width:75px;height:75px;}
+    .sms_list .result_area.fail i{background:#fff url("https://img.moolban.com/unsafe/asset/partner/img/hosting/icon_close-red.png") center top 26px no-repeat;background-size:21px auto}
+    .sms_list .result_area.success i{background:#ff724c url("https://img.moolban.com/unsafe/asset/partner/img/hosting/icon_check-wh.png") center top 28px no-repeat;background-size:26px auto}
+    .sms_list .result_area strong{margin:15px 0 5px;font-size:20px}
+    .sms_list .result_area p{font-size:12px}
+    .sms_list .result_area a{width:180px;height:46px;line-height:46px;font-size:15px;}
+
+    /* sms관리 - 템플릿 767 */
+    .sms_list .button_pick{padding:13px;margin:0}
+    .sms_list .button_pick button{height:24px;line-height:22px;padding:0 6px;font-size:12px}
+    .sms_list .sms_tlist_ol{padding:0 13px}
+    .sms_list .sms_tlist_ol li{margin-top:6px;height:164px;}
+    .sms_list .sms_tlist_ol dt{padding:8px;font-size:13px;}
+    .sms_list .sms_tlist_ol dt i{width:29px;height:20px;line-height:20px;font-size:12px;margin-right:5px;}
+    .sms_list .sms_tlist_ol dd{padding:8px;height:90px;}
+    .sms_list .sms_tlist_ol dd p{font-size:12px;height:75px;line-height:19px;}
+    .sms_list .sms_tlist_ol .button_box{padding:0 8px 10px}
+    .sms_list .sms_tlist_ol .button_box button{width:36px;height:24px;line-height:22px;font-size:12px;letter-spacing:-.5px;}
+
+    /* sms관리 - 템플릿추가 767 */
+    .sms_list .sms_area_sty{width:100%;}
+    .sms_list .btn-template-code{display:none}
+    .sms_list .sms_inner_select select{width:100%;height:35px;font-size:13px;background:#fff url("https://img.moolban.com/unsafe/asset/partner/img/hosting/icon_select-arrow-gy.png") top 14px right 10px no-repeat;background-size:11px 6px;}
+
+    /* 내역없음 767 */
+    .sms_list .none_area{background-color:transparent;margin-bottom:20px}
+    .sms_list .none_area + .wrap_btn{border-top:none;}
+
+    /* 무통장결제 팝업 767 */
+    .untouched_pay_modal{width:295px;}
+    .untouched_pay_modal .untouched_pay_box{padding:0}
+    .untouched_pay_modal .untouched_pay_box dl{margin:0}
+    .untouched_pay_modal .untouched_pay_box dt{float:none;background:#fafafa;padding:10px 12px;font-weight:500;width:100%;border-top:1px solid #eeeeee;border-bottom:1px solid #eeeeee}
+    .untouched_pay_modal .untouched_pay_box dd{float:none;padding:10px 12px;font-size:14px;width:100%;position:relative;}
+    .untouched_pay_modal .untouched_pay_box dd em:before{height:12px}
+    .untouched_pay_modal .untouched_pay_box2{border-top:1px dotted #e6e6e6}
+    .untouched_pay_modal .untouched_pay_box2 dt{border-top:none;}
+    .untouched_pay_modal .untouched_pay_box2 p.line1{position:absolute;top:-29px;left:100px;}
+    .untouched_pay_modal .untouched_pay_box strong{display:block;margin-bottom:5px;}
+    .untouched_pay_modal .untouched_pay_box strong + input[type="text"]{width:100%;}
+    .untouched_pay_modal .untouched_pay_box input[type="text"]{margin-left:0;width:100%;}
+    .untouched_pay_modal .untouched_pay_box select{width:100%;margin-bottom:5px;}
+
+    /* 예약대상 선택팝업 */
+    .reserve_user_modal{width:calc(100% - 20px);}
+    .reserve_user_modal dl.tit_box{padding:9px 7px}
+    .reserve_user_modal .tit_box{padding:9px 7px}
+    .reserve_user_modal .reserve_user_box1 th{width:55px;font-size:13px;height:44px;}
+    .reserve_user_modal .reserve_user_box1 td{padding:0 5px;height:44px;}
+    .reserve_user_modal .reserve_user_box1 td em{width:48%;padding:0 7px}
+    .reserve_user_modal .reserve_user_box1 td span{width:4%}
+    .reserve_user_modal .reserve_user_box1 td span i{width:60%}
+    .reserve_user_modal .reserve_user_box1 td input{height:30px;font-size:13px}
+    .reserve_user_modal .reserve_user_box1 td em img{width:19px;top:8px;right:7px;}
+    .reserve_user_modal .reserve_user_box1 .search_button{margin:10px auto;}
+    .reserve_user_modal .reserve_user_box2 .scrollAuto1{height:210px;overflow-y:auto;}
+    .reserve_user_modal .reserve_user_box2 table th.line1{width:25px}
+    .reserve_user_modal .reserve_user_box2 table th.line2{width:55px}
+    .reserve_user_modal .reserve_user_box2 table th.line3{width:55px}
+    .reserve_user_modal .reserve_user_box2 table th.line4{width:calc(100% - 205px)}
+    .reserve_user_modal .reserve_user_box2 table th.line5{width:70px}
+    .reserve_user_modal .reserve_user_box2 table td{font-size:13px}
+    .reserve_user_modal .fot_box{padding:9px 7px}
+    .reserve_user_modal .modal-footer button{width:90px;height:34px;line-height:33px;font-size:15px;}
+    .reserve_user_modal .reserve_user_list_none p{font-size:13px}
+
+}
